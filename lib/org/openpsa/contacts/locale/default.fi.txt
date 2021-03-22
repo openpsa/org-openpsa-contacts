@@ -1,0 +1,251 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE fi
+
+---STRING <title>
+<titteli>
+---STRINGEND
+
+---STRING add to my contacts
+Lisää omiin yhteyshenkilöihin
+---STRINGEND
+
+---STRING basic information
+Perustiedot
+---STRINGEND
+
+---STRING categories
+Tyyppi
+---STRINGEND
+
+---STRING choose the person to keep
+Valitse kumpi henkilö säilytetään. Voit myös valita myöhemmin tai säilyttää molemmat.
+---STRINGEND
+
+---STRING city
+Kaupunki
+---STRINGEND
+
+---STRING client
+Asiakas
+---STRINGEND
+
+---STRING company_id
+Y-tunnus
+---STRINGEND
+
+---STRING competence areas
+Osaamisalueet
+---STRINGEND
+
+---STRING contact information
+Yhteystiedot
+---STRINGEND
+
+---STRING search title
+Yhteystietojen haku
+---STRINGEND
+
+---STRING contacts
+Yhteyshenkilöt
+---STRINGEND
+
+---STRING country
+Maa
+---STRINGEND
+
+---STRING create organization
+Luo yritys
+---STRINGEND
+
+---STRING create person
+Luo henkilö
+---STRINGEND
+
+---STRING create suborganization
+Luo aliorganisaatio
+---STRINGEND
+
+---STRING daughter organization
+Tytäryhtiö
+---STRINGEND
+
+---STRING decide later
+Päätä myöhemmin
+---STRINGEND
+
+---STRING department
+Osasto
+---STRINGEND
+
+---STRING email
+Sähköposti
+---STRINGEND
+
+---STRING fax
+Faksi
+---STRINGEND
+
+---STRING firstname
+Etunimi
+---STRINGEND
+
+---STRING homepage
+Kotisivu
+---STRINGEND
+
+---STRING homephone
+Kotipuhelin
+---STRINGEND
+
+---STRING invoice address
+Laskutusosoite
+---STRINGEND
+
+---STRING jabber id
+Jabber-tunnus
+---STRINGEND
+
+---STRING job title
+Titteli
+---STRINGEND
+
+---STRING keep both
+Säilytä molemmat
+---STRINGEND
+
+---STRING keep this
+Säilytä tämä
+---STRINGEND
+
+---STRING lastname
+Sukunimi
+---STRINGEND
+
+---STRING me
+Minä
+---STRINGEND
+
+---STRING member
+Organisaation jäsen
+---STRINGEND
+
+---STRING merge persons
+Yhdistä päällekkäiset henkilöt
+---STRINGEND
+
+---STRING mobile phone
+Matkapuhelin
+---STRINGEND
+
+---STRING my contacts
+Omat yhteyshenkilöt
+---STRINGEND
+
+---STRING no duplicates found
+Ei päällekkäisyyksiä
+---STRINGEND
+
+---STRING no more duplicates to merge found
+Päällekkäisyyksiä, joiden muuttamiseen sinulla on oikeudet, ei enää löydy
+---STRINGEND
+
+---STRING notes
+Lisätietoja
+---STRINGEND
+
+---STRING official
+Virallinen nimi
+---STRINGEND
+
+---STRING org.openpsa.contacts
+Kontaktien hallinta
+---STRINGEND
+
+---STRING organization
+Organisaatio
+---STRINGEND
+
+---STRING organization_type
+Organisaation tyyppi
+---STRINGEND
+
+---STRING organizations
+Organisaatiot
+---STRINGEND
+
+---STRING owner organization couldnt be found
+Tämän OpenPSA-asennuksen omistajaorganisaatiota ei löydy asetuksista
+---STRINGEND
+
+---STRING partner
+Kumppani
+---STRINGEND
+
+---STRING person
+Henkilö
+---STRINGEND
+
+---STRING persons
+Henkilöt
+---STRINGEND
+
+---STRING phone
+Puhelin
+---STRINGEND
+
+---STRING photo
+Valokuva
+---STRINGEND
+
+---STRING postal address
+Postiosoite
+---STRINGEND
+
+---STRING postcode
+Postinumero
+---STRINGEND
+
+---STRING remove from my contacts
+Poista omista yhteyshenkilöistäni
+---STRINGEND
+
+---STRING search
+Hae
+---STRINGEND
+
+---STRING skype name
+Skype-tunnus
+---STRINGEND
+
+---STRING street
+Katuosoite
+---STRINGEND
+
+---STRING sub organizations
+Aliorganisaatiot
+---STRINGEND
+
+---STRING vendor
+Toimittaja
+---STRINGEND
+
+---STRING visiting address
+Käyntiosoite
+---STRINGEND
+
+---STRING weekly workhours
+Viikottaiset työtunnit
+---STRINGEND
+
+---STRING work phone
+Työpuhelin
+---STRINGEND
+
+---STRING %s of
+%s
+---STRINGEND
+
+---STRING no results
+Haullesi ei löytynyt tuloksia
+---STRINGEND

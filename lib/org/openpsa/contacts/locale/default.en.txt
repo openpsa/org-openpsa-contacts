@@ -1,0 +1,323 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE en
+
+---STRING __org_openpsa_contacts
+CRM Root Group
+---STRINGEND
+
+---STRING __org_openpsa_contacts_list
+Contact Lists Root Group
+---STRINGEND
+
+---STRING %s of
+%s of
+---STRINGEND
+
+---STRING <title>
+&lt;title>
+---STRINGEND
+
+---STRING add contact
+Add contact
+---STRINGEND
+
+---STRING add to my contacts
+Add to my contacts
+---STRINGEND
+
+---STRING basic information
+Basic information
+---STRINGEND
+
+---STRING both
+Both
+---STRINGEND
+
+---STRING categories
+Categories
+---STRINGEND
+
+---STRING choose the person to keep
+Choose which contact person to keep. You can also decide later or keep both.
+---STRINGEND
+
+---STRING city
+City
+---STRINGEND
+
+---STRING client
+Client
+---STRINGEND
+
+---STRING company_id
+Company ID
+---STRINGEND
+
+---STRING competence areas
+Competence areas
+---STRINGEND
+
+---STRING contact information
+Contact information
+---STRINGEND
+
+---STRING search title
+Contact search
+---STRINGEND
+
+---STRING contacts
+Contacts
+---STRINGEND
+
+---STRING country
+Country
+---STRINGEND
+
+---STRING create organization
+Create organization
+---STRINGEND
+
+---STRING create person
+Create person
+---STRINGEND
+
+---STRING create suborganization
+Create suborganization
+---STRINGEND
+
+---STRING create subgroup
+Create subgroup
+---STRINGEND
+
+---STRING contacts of %s
+Contacts of %s
+---STRINGEND
+
+---STRING daughter organization
+Daughter organization
+---STRINGEND
+
+---STRING decide later
+Decide later
+---STRINGEND
+
+---STRING decide later
+Decide later
+---STRINGEND
+
+---STRING department
+Department
+---STRINGEND
+
+---STRING edit billingdata
+Edit billing data
+---STRINGEND
+
+---STRING email
+Email
+---STRINGEND
+
+---STRING fax
+Fax
+---STRINGEND
+
+---STRING firstname
+First name
+---STRINGEND
+
+---STRING group
+Group
+---STRINGEND
+
+---STRING groups
+Groups
+---STRINGEND
+
+---STRING homepage
+Homepage
+---STRINGEND
+
+---STRING homephone
+Home phone
+---STRINGEND
+
+---STRING invoice address
+Invoicing address
+---STRINGEND
+
+---STRING invoice defaults
+Invoice defaults
+---STRINGEND
+
+---STRING jabber id
+Jabber ID
+---STRINGEND
+
+---STRING job title
+Job title
+---STRINGEND
+
+---STRING keep both
+Keep both
+---STRINGEND
+
+---STRING keep this
+Keep this
+---STRINGEND
+
+---STRING lastname
+Last name
+---STRINGEND
+
+---STRING me
+Me
+---STRINGEND
+
+---STRING member
+Organization member
+---STRINGEND
+
+---STRING members
+Members
+---STRINGEND
+
+---STRING merge persons
+Merge duplicate persons
+---STRINGEND
+
+---STRING mobile phone
+Mobile phone
+---STRINGEND
+
+---STRING mr
+Mr
+---STRINGEND
+
+---STRING ms
+Ms
+---STRINGEND
+
+---STRING my contacts
+My contacts
+---STRINGEND
+
+---STRING no duplicates found
+No duplicates found
+---STRINGEND
+
+---STRING no more duplicates to merge found
+No more duplicates that you have permissions to merge found
+---STRINGEND
+
+---STRING no results
+No results were found for your query
+---STRINGEND
+
+---STRING notes
+Notes
+---STRINGEND
+
+---STRING official
+Official name
+---STRINGEND
+
+---STRING org.openpsa.contacts
+Contact manager
+---STRINGEND
+
+---STRING organization
+Organization
+---STRINGEND
+
+---STRING organization_type
+Organization type
+---STRINGEND
+
+---STRING organizations
+Organizations
+---STRINGEND
+
+---STRING owner group
+Owner Group
+---STRINGEND
+
+---STRING owner organization couldnt be found
+Owner organization for this OpenPSA installation couldn't be found from configuration
+---STRINGEND
+
+---STRING partner
+Partner
+---STRINGEND
+
+---STRING person
+Person
+---STRINGEND
+
+---STRING persons
+Persons
+---STRINGEND
+
+---STRING phone
+Phone
+---STRINGEND
+
+---STRING photo
+Photo
+---STRINGEND
+
+---STRING postal address
+Postal address
+---STRINGEND
+
+---STRING postcode
+ZIP
+---STRINGEND
+
+---STRING remove from my contacts
+Remove from my contacts
+---STRINGEND
+
+---STRING salutation
+Salutation
+---STRINGEND
+
+---STRING search
+Search
+---STRINGEND
+
+---STRING search in
+Search in
+---STRINGEND
+
+---STRING skype name
+Skype name
+---STRINGEND
+
+---STRING street
+Street address
+---STRINGEND
+
+---STRING sub organizations
+Suborganizations
+---STRINGEND
+
+---STRING title
+Title
+---STRINGEND
+
+---STRING vendor
+Vendor
+---STRINGEND
+
+---STRING visiting address
+Visiting address
+---STRINGEND
+
+---STRING weekly workhours
+Weekly work hours
+---STRINGEND
+
+---STRING work phone
+Work phone
+---STRINGEND

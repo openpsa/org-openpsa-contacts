@@ -1,0 +1,159 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE hu
+
+---STRING categories
+Kategóriák
+---STRINGEND
+
+---STRING city
+Város
+---STRINGEND
+
+---STRING client
+Ügyfél
+---STRINGEND
+
+---STRING company_id
+Cég azonosító
+---STRINGEND
+
+---STRING country
+Ország
+---STRINGEND
+
+---STRING create organization
+Szervezet létrehozása
+---STRINGEND
+
+---STRING create person
+Személy létrehozása
+---STRINGEND
+
+---STRING daughter organization
+Leány vállalat
+---STRINGEND
+
+---STRING decide later
+Később dönt
+---STRINGEND
+
+---STRING department
+Osztály
+---STRINGEND
+
+---STRING email
+Email
+---STRINGEND
+
+---STRING fax
+Fax
+---STRINGEND
+
+---STRING firstname
+Keresztnév
+---STRINGEND
+
+---STRING homepage
+Honlap
+---STRINGEND
+
+---STRING homephone
+Otthoni telefonszám
+---STRINGEND
+
+---STRING invoice address
+Számlázási cím
+---STRINGEND
+
+---STRING jabber id
+Jabber azonosító
+---STRINGEND
+
+---STRING job title
+Beosztás
+---STRINGEND
+
+---STRING keep both
+Mindkettő megtartása
+---STRINGEND
+
+---STRING lastname
+Vezetéknév
+---STRINGEND
+
+---STRING me
+Én
+---STRINGEND
+
+---STRING mobile phone
+Mobiltelefon
+---STRINGEND
+
+---STRING notes
+Jegyzetek
+---STRINGEND
+
+---STRING person
+Személy
+---STRINGEND
+
+---STRING persons
+Személyek
+---STRINGEND
+
+---STRING phone
+Telefon
+---STRINGEND
+
+---STRING photo
+Fotó
+---STRINGEND
+
+---STRING postal address
+Postai cím
+---STRINGEND
+
+---STRING postcode
+Irányítószám
+---STRINGEND
+
+---STRING search
+Keresés
+---STRINGEND
+
+---STRING skype name
+Skype-os név
+---STRINGEND
+
+---STRING vendor
+Eladó
+---STRINGEND
+
+---STRING visiting address
+Cím
+---STRINGEND
+
+---STRING weekly workhours
+Heti munkaórák
+---STRINGEND
+
+---STRING work phone
+Munkahelyi telefon
+---STRINGEND
+
+---STRING organization
+Szervezet
+---STRINGEND
+
+---STRING organization_type
+Szervezet fajtája
+---STRINGEND
+
+---STRING organizations
+Szervezetek
+---STRINGEND
+
+---STRING partner
+Partner
+---STRINGEND
