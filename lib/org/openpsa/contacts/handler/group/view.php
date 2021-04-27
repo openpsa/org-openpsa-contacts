@@ -77,9 +77,6 @@ implements client
         $this->_view_toolbar->add_items($buttons);
     }
 
-    /**
-     * @param array $data The local request data.
-     */
     public function _show_view(string $handler_id, array &$data)
     {
         if ($this->group->orgOpenpsaObtype < org_openpsa_contacts_group_dba::MYCONTACTS) {
@@ -111,7 +108,7 @@ implements client
             if (midcom::get()->componentloader->is_installed('org.openpsa.invoices')) {
                 $qb_billing_data = org_openpsa_invoices_billing_data_dba::new_query_builder();
                 $qb_billing_data->add_constraint('linkGuid', '=', $this->group->guid);
-                $this->_request_data['billing_data'] = $qb_billing_data->execute()[0] ?? null;
+                $data['billing_data'] = $qb_billing_data->execute()[0] ?? null;
             }
         }
 

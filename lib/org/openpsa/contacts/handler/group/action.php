@@ -51,9 +51,6 @@ class org_openpsa_contacts_handler_group_action extends midcom_baseclasses_compo
         $data['members_qb'] = $qb;
     }
 
-    /**
-     * @param array $data The local request data.
-     */
     public function _show_members(string $handler_id, array &$data)
     {
         $results = $data['members_qb']->execute();
@@ -61,17 +58,17 @@ class org_openpsa_contacts_handler_group_action extends midcom_baseclasses_compo
             $this->add_head_elements();
             midcom_show_style('show-group-persons-header');
             foreach ($results as $member) {
-                $this->_request_data['member'] = $member;
-                $this->_request_data['member_title'] = $member->extra;
+                $data['member'] = $member;
+                $data['member_title'] = $member->extra;
 
-                $this->_request_data['person'] = new org_openpsa_contacts_person_dba($member->uid);
+                $data['person'] = new org_openpsa_contacts_person_dba($member->uid);
                 midcom_show_style('show-group-persons-item');
             }
             midcom_show_style('show-group-persons-footer');
         }
     }
 
-    public function _handler_subgroups(string $guid, array &$data)
+    public function _handler_subgroups(string $guid)
     {
         $group = new org_openpsa_contacts_group_dba($guid);
         $qb = org_openpsa_contacts_group_dba::new_query_builder();
@@ -79,16 +76,13 @@ class org_openpsa_contacts_handler_group_action extends midcom_baseclasses_compo
         $this->results = $qb->execute();
     }
 
-    /**
-     * @param array $data The local request data.
-     */
     public function _show_subgroups(string $handler_id, array &$data)
     {
         if (!empty($this->results)) {
             $this->add_head_elements();
             midcom_show_style('show-group-subgroups-header');
             foreach ($this->results as $subgroup) {
-                $this->_request_data['subgroup'] = $subgroup;
+                $data['subgroup'] = $subgroup;
                 midcom_show_style('show-group-subgroups-item');
             }
             midcom_show_style('show-group-subgroups-footer');
