@@ -22,13 +22,6 @@ implements client
 {
     use org_openpsa_contacts_handler;
 
-    /**
-     * What type of group are we dealing with, organization or group?
-     *
-     * @var string
-     */
-    private $type;
-
     private $group;
 
     private function _populate_toolbar()
@@ -95,11 +88,11 @@ implements client
         $data['group'] = $this->group;
 
         if ($this->group->orgOpenpsaObtype < org_openpsa_contacts_group_dba::MYCONTACTS) {
-            $this->type = 'group';
+            $type = 'group';
             $data['group_tree'] = $this->get_group_tree();
             $data['members_grid'] = new grid('members_grid', 'json');
         } else {
-            $this->type = 'organization';
+            $type = 'organization';
             $root_group = org_openpsa_contacts_interface::find_root_group();
             if ($this->group->owner != $root_group->id) {
                 $data['parent_group'] = $this->group->get_parent();
@@ -113,7 +106,7 @@ implements client
         }
 
         $data['view'] = datamanager::from_schemadb($this->_config->get('schemadb_group'))
-            ->set_storage($this->group, $this->type)
+            ->set_storage($this->group, $type)
             ->get_content_html();
 
         // Add toolbar items
@@ -186,18 +179,18 @@ implements client
     public function get_row(midcom_core_dbaobject $user)
     {
         $link = $this->router->generate('person_view', ['guid' => $user->guid]);
-        $entry = [];
-        $entry['id'] = $user->id;
-        $lastname = trim($user->lastname);
-        if (empty($lastname)) {
-            $lastname = $this->_l10n->get('person') . ' #' . $user->id;
-        }
-        $entry['lastname'] = "<a href='" . $link . "'>" . $lastname . "</a>";
-        $entry['index_lastname'] = $lastname;
-        $entry['firstname'] = "<a href='" . $link . "' >" . $user->firstname . "</a>";
-        $entry['index_firstname'] = $user->firstname;
-        $entry['homepage'] = '';
-        $entry['index_homepage'] = $user->homepage;
+        $lastname = trim($user->lastname) ?: $this->_l10n->get('person') . ' #' . $user->id;
+        $entry = [
+            'id' => $user->id,
+            'lastname' => "<a href='" . $link . "'>" . $lastname . "</a>",
+            'index_lastname' => $lastname,
+            'firstname' => "<a href='" . $link . "' >" . $user->firstname . "</a>",
+            'index_firstname' => $user->firstname,
+            'homepage' => '',
+            'index_homepage' => $user->homepage,
+            'email' => "<a href='mailto:" . $user->email . "' >" . $user->email . "</a>",
+            'index_email' => $user->email
+        ];
         if (!empty($user->homepage)) {
             $url = $user->homepage;
             if (!preg_match('/^https?:\/\//', $url)) {
@@ -205,9 +198,6 @@ implements client
             }
             $entry['homepage'] = '<a href="' . $url . '">' . $user->homepage . '</a>';
         }
-
-        $entry['email'] = "<a href='mailto:" . $user->email . "' >" . $user->email . "</a>";
-        $entry['index_email'] = $user->email;
 
         return $entry;
     }
