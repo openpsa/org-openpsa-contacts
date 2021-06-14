@@ -6,10 +6,6 @@
 CRM Root Group
 ---STRINGEND
 
----STRING __org_openpsa_contacts_list
-Contact Lists Root Group
----STRINGEND
-
 ---STRING %s of
 %s of
 ---STRINGEND
@@ -88,10 +84,6 @@ Create suborganization
 
 ---STRING create subgroup
 Create subgroup
----STRINGEND
-
----STRING contacts of %s
-Contacts of %s
 ---STRINGEND
 
 ---STRING daughter organization
